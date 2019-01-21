@@ -1,0 +1,101 @@
+body
+ {
+     background:url(../img/bgshopping.jpg);
+ }
+.content
+{
+    margin-top: 3px;
+    background-color: #FFFFFF;
+}
+
+#content{  width:980px; clear:both;}
+#content img{ margin-left:20px; margin-top:10px;}
+#content p { margin-bottom:20px;
+    height:60px;
+    font-size:12px;
+    line-height:20px;
+    padding:10px 5px 5px 8px;
+    color:#FFF;
+}
+#content  p img {
+    vertical-align:middle;
+
+    padding-right:10px; margin-bottom:10px;
+
+}
+
+th{ background-color:#B4A078; border:0px;  color: #ffffff}
+td{ text-align:center; font-size:14px; border:0px; border-right:2px solid #B4A078;   }
+
+
+#ft{ width:1000px;height: 20px;  }
+#ft p{ height:10px;}
+#ft .p2{ color:#000; text-align:right; }
+
+#ft .p1{ text-align:left; float:left;}
+.i1
+{
+    float:right;
+    width: 200px;
+    height: 100px;
+}
+.pay
+{
+    width: 200px;
+    height: 55px;
+    margin-top: 40px;
+    background-image: url(../img/pay.png) ;
+    border-radius:15px;
+    background-position:-2px -2px;
+    float: right;
+    margin-right:1000px;
+
+}
+.inputOne{
+    width: 980px;
+    height: 50px;
+    margin-left: 815px;
+
+
+}
+
+a{
+    color: #000000;
+}
+a:hover
+{
+    color: #b4a078;
+
+}
+#changeNum{
+    width: 190px;
+    height: 50px;
+    float: left;
+    margin-top: 30px;
+
+}
+#changeNumbtn{
+    width: 190px;
+    height: 55px;
+    background-image: url(../img/btn.png) ;
+    border-radius:15px;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 250px;
+    margin-top: 30px;
+
+
+}
+#delGwc
+{
+margin-top: -65px;
+
+}
+#priceSum
+{
+    width: 190px;
+    height: 10px;
+    margin-left: 400px;
+    float: right;
+
+}

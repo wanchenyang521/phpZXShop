@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration:none;
+}
+
+html,body{
+	width: 100%;
+	background-color: #fff;
+	height: 1000px;
+}
+.wrapper{
+	width: 100%;
+	height: 1000px;
+}
+
+.wrapper .top-nav-wrap{
+	width: 100%;
+	height: 35px;
+	background-color: #333;
+	border:1px solid #eee	;
+	
+}
+.wrapper .top-nav-wrap .top-nav{
+	width: 1110px;
+	height: 35px;
+	margin: 0 auto;
+	/*border:1px solid black;*/
+}
+.wrapper .top-nav-wrap .top-nav .top-nav-l{
+	float: left;
+
+}
+.wrapper .top-nav-wrap .top-nav .top-nav-r{
+	float: right;
+
+}
+.wrapper .top-nav-wrap .top-nav li{
+	float: left;
+	margin-right: 7px;
+	color:#ccc;
+	font-size:12px;
+
+}
+.wrapper .top-nav-wrap .top-nav li a{
+	color:#ccc;
+	font-size:12px;
+	line-height: 35px; 
+	padding: 0 6px;
+
+}
+.wrapper .top-nav-wrap .top-nav .goodLife{
+	color: #ccc;
+	font-size: 12px;
+	line-height: 35px;
+}
+.wrapper .top-nav-wrap .top-nav .goodLife .goodLife-span{
+	padding: 0 6px;
+}
+.wrapper .top-nav-wrap .top-nav .cutOff span{
+	color: #dddddd;
+	line-height: 35px;
+}
+
+
+
+
+/*导航条结束*/
+
+.wrapper .search-wrap{
+	width: 100%;
+	height: 130px;
+	/*border: 1px solid black;*/
+	background-color: #fff;
+	padding-top: 24px;
+	padding-bottom: 9px;
+}
+
+.wrapper .search-wrap .search-con{
+	width: 1110px;
+	height: 88px;
+	/*border:1px solid black;*/
+	margin:0 auto;
+}
+
+.wrapper .search-wrap .search-con .logo-box{
+	display: inline-block;
+	width: 190px;
+	height: 80px;
+	vertical-align: middle;
+}
+.wrapper .search-wrap .search-con .logo-box img{
+	width: 100px;
+	height: 100px;
+	margin-left: 22px;
+
+}
+.wrapper .search-wrap .search-con .search-box{
+	width: 627px;
+	height: 87px;
+	/*border:1px solid black;*/
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+}
+.wrapper .search-wrap .search-con .search-box .search-bd{
+	width: 627px;
+	height: 62px;
+	/*border:1px solid black;*/
+}
+
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel{
+	/*border: 1px solid black;*/
+	width: 627px;
+	height: 40px;
+	position: relative;
+	margin-top: 24px;
+
+}
+
+.wrapper .search-wrap .search-con .search-box .search-bd .btn{
+	position: absolute;
+	right: 0px;
+	top:0;
+	width: 74px;
+	height: 40px;
+	z-index: 1000;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	text-align: center;
+
+}
+
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .btn .searchBtn{
+	border: none;
+	background-color: #b4a078;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	cursor: pointer;
+}
+
+ .wrapper .search-wrap .search-con .search-inp-box{
+ 	width: 551px;
+ 	border: 2px solid #b4a078;
+ 	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-right: none;
+	height: 36px;
+	overflow: hidden;
+
+ }
+
+.wrapper .search-wrap .search-con .search-box .search-bd .search-panel .sousuo{
+	display: inline-block;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 11px;
+	left: 12px;
+	background: url('../img/fdj.jpg')  no-repeat;
+	background-size: 100% 100%;
+}
+
+
+ .wrapper .search-wrap .search-con .search-inp-box .search-inp{
+ 	width: 472px;
+ 	height: 36px;
+ 	overflow: hidden;
+ }
+
+
+ .wrapper .search-wrap .search-con .search-inp-box .search-inp input{
+ 	width: 472px;
+ 	height: 24px;
+ 	line-height: 24px;
+ 	border: none;
+ 	outline: 0;
+ 	text-indent: 10px;
+ 	background-color: #fff;
+ 	padding: 6px 16px;
+ 	margin-left: 5px;
+
+ }
+
+
+/*中间导航条开始*/
+
+.wrapper .scrren-nav-wrap{
+	width: 100%;
+	height: 30px;
+	margin-top: 18px;
+}
+
+.wrapper .scrren-nav-wrap .scrren-nav-content{
+	width: 1110px;
+	height: 30px;
+	margin:0 auto;
+}
+.wrapper .scrren-nav-wrap .scrren-nav-content h2{
+	float: left;
+	width: 190px;
+	height: 30px;
+	color: #b4a078;
+	
+	font-size: 16px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.wrapper .scrren-nav-wrap .scrren-nav-content ul{
+	float: left;
+	height: 30px;
+	font-size: 16px;
+	
+}
+.wrapper .scrren-nav-wrap .scrren-nav-content ul li{
+	float: left;
+	text-align: center;
+	padding: 0 4px;
+	margin: 0 3px;
+	line-height: 30px;
+	font-weight: 450;
+	color: #000000;
+	margin-left: 50px;
+}
+
+
+.wrapper .scrren-nav-wrap .scrren-nav-content ul li a{
+	color: #000000;
+	text-align: center;
+	line-height: 30px;
+}
+.wrapper .scrren-nav-wrap .scrren-nav-content ul li a:hover
+{
+	color: #b4a078;
+	
+}
+.shutter
+{
+	clear: both;
+	margin: 1px solid black;
+	margin-top:10px; 
+}
+
+
+
+
+/*导航条结束*/
+
+.content
+{
+	width: 1100px;
+	height: 500px;
+	/* background-color: #b4a078; */
+	margin: auto;
+}
+
+.mader{
+	margin-top: 16px;
+}
+.mader .word1 h2{
+	float: left;
+
+}
+.mader .word1 p{
+	margin-left: 130px;
+	padding-top: 10px;
+}
+.mader .mader-pic
+{
+
+	width: 1100px;
+	height: 325px;
+	margin-top: 10px;
+
+}
+.mader .mader-pic .mader-pic1 img{
+	clear: both;
+}
+.mader .mader-pic .mader-pic1 img ,
+.mader .mader-pic .mader-pic2 img
+{
+	width: 360px;
+	height: 325px;
+	float: left;
+}
+.mader .mader-pic .mader-pic2 img{
+	margin-left: 10px;
+}
+
+
+.mader .mader-pic .mader-pic3 img,
+.mader .mader-pic .mader-pic4 img
+{
+	margin-left: 5px;
+	width: 360px;
+	height: 158px;
+	margin-left: 10px;
+
+}
+.mader .mader-pic .mader-pic4 img{
+	margin-top: 5px;
+}
+
+
+.new
+{
+	margin-top: 16px;
+}
+
+.new .newPic li{
+	float: left;
+	
+}
+.new .newPic img
+{
+	width: 275px;
+}
+.new ul{
+clear: both;
+}
+.new .newpics{
+	width: 1100px;
+	height: 300px;
+
+}
+.idea
+{
+	clear: both;
+	margin-top: 16px;
+	background-color: #b4a078;
+	height: 550px;
+}
+.idea .ideaPic li
+{
+	float: left;
+
+	margin-left: 25px;
+} 
+.idea .ideaPi img
+{
+	width: 270px;
+}
+
+.foot{
+	clear: both;
+	width: 1920px;
+	background-color: #333;
+	color:#fff;
+	margin: auto;
+}
+.foot .phone div{
+	float: left;
+	height: 6em;
+	width: 500px;
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.chengruo{
+	clear: both;
+	margin: 0 auto;
+}
+
+.chengruo div {
+	float: left;
+	height: 9em;
+	width: 320px;
+	text-align: center;
+	width: 500px;
+	margin-top: 1em;
+}
+
+.banquan{
+	width:45em;
+	clear: both;
+	text-align: center;
+	margin-left: 398px;
+}
+.banquan p{
+	width: 45em;
+
+}
+.fgf{
+	clear: both;
+}
